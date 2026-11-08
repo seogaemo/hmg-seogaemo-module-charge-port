@@ -1,0 +1,5 @@
+name=예제 모듈
+summary=HMG-Seogaemo 모듈 구조를 보여주는 예제
+level=단계
+how_it_works=속성 하나를 바꿉니다. 모듈을 끄면 원래 값으로 돌아갑니다.
+needs_hotspot=Wi-Fi 연결 모드가 켜져 있습니다. 이 예제는 경고만 표시합니다.

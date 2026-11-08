@@ -1,0 +1,3 @@
+status
+choice setting=level label=@level
+info @how_it_works

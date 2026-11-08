@@ -1,0 +1,5 @@
+name=Example module
+summary=Shows how an HMG-Seogaemo module is built
+level=Level
+how_it_works=Sets one property. Turning the module off restores the original value.
+needs_hotspot=Wi-Fi client mode is on; this example only warns about it.
