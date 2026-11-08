@@ -1,5 +1,5 @@
-name=Example module
-summary=Shows how an HMG-Seogaemo module is built
-level=Level
-how_it_works=Sets one property. Turning the module off restores the original value.
-needs_hotspot=Wi-Fi client mode is on; this example only warns about it.
+name=Charge port
+summary=Opens the charge port door of an electric vehicle
+action_label=Open
+action_confirm=Open the charge port door?
+how_it_works=Sends the same open command as the remote charge port button. The door is closed by hand. Use only while parked.

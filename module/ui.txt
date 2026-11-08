@@ -1,3 +1,2 @@
-status
-choice setting=level label=@level
+button name=open label=@action_label confirm=@action_confirm
 info @how_it_works
