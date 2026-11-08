@@ -12,6 +12,7 @@ jobs:
       - name: Tag must equal module version
         run: test "$GITHUB_REF_NAME" = "v$(sed -n 's/^version=//p' module/module.properties)"
       - run: python3 tools/pack.py | tee pack.txt
-      - run: gh release create "$GITHUB_REF_NAME" dist/*.hsm --notes "SHA-256: $(sed -n 2p pack.txt)"
+      - run: |
+          gh release create "$GITHUB_REF_NAME" dist/*.hsm --notes "SHA-256: $(sed -n 2p pack.txt)"
         env:
           GH_TOKEN: ${{ github.token }}
